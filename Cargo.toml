@@ -1,0 +1,10 @@
+[package]
+name = "SigmaOS-animation-tool"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+description = "SigmaOS animation-tool component"
+
+[lib]
+name = "animation_tool"
+path = "src/lib.rs"
