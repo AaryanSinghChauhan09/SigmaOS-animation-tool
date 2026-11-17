@@ -3,12 +3,12 @@ name = "SigmaOS-animation-tool"
 tier = 2
 stability = "scaffold"
 language = "rust"
-description = "animation-tool component"
+description = "Animation tool component for SigmaOS"
 upstream = []
 
 [contract]
 provides = ["component"]
-depends_on = []
+depends_on = ["SigmaOS-system"]
 
 [maturity]
 status = "Scaffold"
